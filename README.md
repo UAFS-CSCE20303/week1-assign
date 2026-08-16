@@ -1,4 +1,4 @@
-## CSCE 30503: Operating Systems - Week 1 Assignment
+## CSCE 20303: Web Systems - Week 1 Assignment
 
 **Objective:** The purpose of this assignment is to introduce the Git protocol and GitHub. Git is a source code versioning software that is used by developers and software teams to manage code bases, test, and deploy code.
 
@@ -16,17 +16,9 @@ For this assignment:
 git clone <Paste Your Repo URL>
 ```
 
-This will copy your repo to your local VM. Type _'ls -l'_ to list all of the files in the directory and you should see a directory with the name of your repo. Change to that directory using _'cd theName'_. If you type _'ls -l'_ again, you should see all of the files in your repo. (README.md, prog.c, prog)
+This will copy your repo to your local VM. Type _'ls -l'_ to list all of the files in the directory and you should see a directory with the name of your repo. Change to that directory using _'cd theName'_. If you type _'ls -l'_ again, you should see all of the files in your repo. (README.md, home.html)
 
-Modify the C program to print 'Hello <Your Name Here>!'. Open Visual Studio Code and modify the prog.c source code to add your name to the printf statement. Press _'Ctrl-S'_ to save your changes.
-
-You must now recompile the C program. Type the following command to recompile the program:
-
-```
-gcc prog.c -o prog
-```
-
-Type: **./prog** to execute the program.
+Modify the HTML file(home.html) to display your name in between the <h2> tags. After making the change and saving it. Open Chrome and click on the Index link to list the files in your project directory and select home.html in the week1-assign directory.
 
 ### Update your Local Repository and Push your changes to GitHub
 
